@@ -1,0 +1,10 @@
+http2,loss10,loss10,small1.jpg,2,0.011239,0.009244,20480
+http2,loss10,loss10,small2.jpg,2,0.003778,0.003573,20480
+http2,loss10,loss10,small3.jpg,2,0.003399,0.003122,20480
+http2,loss10,loss10,medium.js,2,0.004290,0.003127,204800
+http2,loss10,loss10,large.mp4,2,0.030958,0.002029,5242880
+http3,loss10,loss10,small1.jpg,3,0.031409,0.031371,20480
+http3,loss10,loss10,small2.jpg,3,0.045715,0.045625,20480
+http3,loss10,loss10,small3.jpg,3,0.033672,0.033501,20480
+http3,loss10,loss10,medium.js,3,0.016227,0.013141,204800
+http3,loss10,loss10,large.mp4,3,0.045519,0.019431,5242880

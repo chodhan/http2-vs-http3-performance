@@ -1,0 +1,7 @@
+cd ~/http3-project
+cat > Dockerfile << 'EOF'
+FROM caddy:2-alpine
+RUN apk add --no-cache iproute2
+COPY testfiles /srv
+RUN printf ":443 {\n    tls internal\n    root * /srv\n    file_server browse\n    encode gzip\n}\n" > /etc/caddy/Caddyfile
+EOF
